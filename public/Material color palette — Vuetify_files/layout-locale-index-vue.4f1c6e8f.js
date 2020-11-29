@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["layout-locale-index-vue"],{"12e1":function(e,n,t){"use strict";t.r(n);var u=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("router-view")},l=[],o=(t("740e"),{name:"LocaleLayout"}),a=o,c=t("d802"),r=Object(c["a"])(a,u,l,!1,null,null,null);n["default"]=r.exports},"740e":function(e,n,t){}}]);
+//# sourceMappingURL=layout-locale-index-vue.4f1c6e8f.js.map
