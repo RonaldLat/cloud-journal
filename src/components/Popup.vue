@@ -180,11 +180,11 @@ export default {
           title: this.title,
           content: this.content,
           // date: moment(this.date).format("Do MM YYYY"),
-          date:  db.FieldValue.serverTimestamp(),
+          date:  db.firestore.FieldValue.serverTimestamp(),
           emotion: this.emotion,
         };
 
-        db.collection("journal")
+        db.firestore().collection("journal")
           .add(newJournal)
           .then(() => {
             this.loading = false;

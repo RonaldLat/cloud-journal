@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Dashboard from "../views/Dashboard.vue";
-import Projects from "../views/Projects.vue";
+import Addjournal from "../views/Addjournal.vue";
+import Journals from "../views/Journals.vue";
 import Team from "../views/Team.vue";
 
 Vue.use(VueRouter);
@@ -9,16 +9,16 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "dashboard",
-    component: Dashboard
+    name: "addjournal",
+    component: Addjournal
   },
   {
-    path: "/projects",
-    name: "projects",
+    path: "/journals",
+    name: "Journals",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: Projects
+    component: Journals
   },
 
   {

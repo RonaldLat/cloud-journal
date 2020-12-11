@@ -17,7 +17,7 @@ import 'firebase/firestore'
   firebase.initializeApp(firebaseConfig);
   // firebase.analytics();
 
-  let db = firebase.firestore();
-  // db.settings({timestampsInSnapshots: true});
+  // let db = firebase.firestore();
+  let db = firebase;
 
   export default db;
